@@ -1,4 +1,5 @@
-import { c as create_ssr_component, e as each, b as add_attribute, d as escape, v as validate_component } from "../../chunks/ssr.js";
+export const prerender = true;
+import { b as add_attribute, c as create_ssr_component, e as each, d as escape, v as validate_component } from "../../chunks/ssr.js";
 const Main = create_ssr_component(($$result, $$props, $$bindings, slots) => {
   let benefits = [
     {
