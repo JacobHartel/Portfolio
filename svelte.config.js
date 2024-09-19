@@ -8,7 +8,9 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assests: 'build',
-			fallback: 'index.html',
+			fallback: 'undefined',
+			precompress: false,
+			strict: true
 		})
 	
 	},
