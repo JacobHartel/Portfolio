@@ -1,7 +1,10 @@
 <script>
+// @ts-nocheck
+
     import Footer from "../components/Footer.svelte";
     import Header from "../components/Header.svelte";
     import "../app.css";
+    export const prerender = false;
     let y;
     let innerWidth = 0;
     let innerHeight = 0;
